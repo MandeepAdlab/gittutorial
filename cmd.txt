@@ -1,0 +1,33 @@
+$ git init (for intialization)
+
+$ git remote add origin https://github.com/MandeepAdlab/Git-project.git (for remote connection)
+
+git remote -v (to check connection)
+
+git remote set-url origin https://githup.com/MandeepAdlab ( to change url of remote origin)
+
+git add .
+
+git branch -M main
+
+git commit -m "first commit"
+
+git push -u origin main
+
+git clone https://github.com/MandeepAdlab/Git-project folder_name
+
+cloing private repo
+
+git clone -b <branch-name> https://<username>@github.com/<username>/<repo>.git
+
+(((change editor ->>>>>>>>>>>>...      git config --global core.editor edtiorname
+
+to put files in staging are  --->>>>>>>>>>>>>>>    git add --a
+
+----------------------------------->>>>>> git commit -m "this is first commit "
+add .gitignore to ignore files 
+touch to create file
+
+---------------
+git diff (comparing working and staging area)
+git diff --staged( compared last commit with current)
