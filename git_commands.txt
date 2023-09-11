@@ -36,8 +36,4 @@ git commit -a -m "for commit only track file"
 
 git log
 
-git rm config.txt to remove through git
-
-git mv cmd.txt git_command.txt  ( to rename file)
-
-git rm --cached file.txt (to untrack)
+git rm config.txt

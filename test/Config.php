@@ -18,6 +18,6 @@ class Config
         $options['price_asc'] = __('Price low to high');
         $options['price_desc'] = __('Price high tolow');
 
-        return $options;
+        return $options;fs
     }
 }
