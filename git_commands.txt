@@ -36,9 +36,11 @@ git commit -a -m "for commit only track file"
 
 git log
 
-git rm config.txt
+git rm config.txt to remove through git
 
-git rm --cached filename.txt (for ignoring files)
+git mv cmd.txt git_command.txt  ( to rename file)
+
+git rm --cached filename.txt (for ignoring files and make file untrack)
 
 git log --since=2.days (filter log)
 
@@ -49,3 +51,22 @@ git commit --amend (for modifiy commit )
 git restore --staged file.txt (to unstage stage file)
 
 git checkout -- file.txt ( to restore file data from last  data )
+
+git checkout -f ( to go to last commit before commit )
+
+git remote add reponame giturl
+
+git branch -M branchname
+
+git push -u reponame branchname
+
+---------------------------
+genreating new ssh
+
+ ssh-keygen -t rsa -b 4096 -C "test@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+tail  ~/.ssh/id_rsa.pub
+----------------------------
+
+ 
