@@ -37,3 +37,5 @@ git commit -a -m "for commit only track file"
 git log
 
 git rm config.txt
+
+git rm --cached filename.txt
