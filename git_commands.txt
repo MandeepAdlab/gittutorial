@@ -38,4 +38,14 @@ git log
 
 git rm config.txt
 
-git rm --cached filename.txt
+git rm --cached filename.txt (for ignoring files)
+
+git log --since=2.days (filter log)
+
+git log --pretty=format:"%h -- %an" (formating log) (for more visit git-scm.com/docs/git-log)
+
+git commit --amend (for modifiy commit )
+
+git restore --staged file.txt (to unstage stage file)
+
+git checkout -- file.txt ( to restore file data from last  data )
